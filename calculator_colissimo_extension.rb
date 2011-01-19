@@ -14,6 +14,7 @@ class CalculatorColissimoExtension < Spree::Extension
   
   def activate
     Calculator::Colissimo::SoColissimoHomeSigned.register
+    Calculator::Colissimo::ColissimoInternationalSigned.register
     # make your helper avaliable in all views
     # Spree::BaseController.class_eval do
     #   helper YourHelper

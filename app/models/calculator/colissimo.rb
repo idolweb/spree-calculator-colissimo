@@ -5,14 +5,6 @@ class Calculator::Colissimo < Calculator
     ShippingRate.register_calculator(self)
   end
   
-  def self.description
-    "Colissimo"
-  end
-  
-  def available?(object)
-    return weight(object) <= 30
-  end
-  
   def weight(order)
     weight = order.line_items.inject(0) do |weight, line_item|
       weight + (line_item.variant.weight ? (line_item.quantity * line_item.variant.weight * multiplier) : 0)

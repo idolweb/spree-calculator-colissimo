@@ -3,6 +3,10 @@ class Calculator::Colissimo::SoColissimoHomeSigned < Calculator::Colissimo
     "So Colissimo - Domicile avec signature"
   end
   
+  def available?(object)
+    return object.ship_address.country.iso3 == "FRA" && weight(object) <= 30
+  end
+  
   def compute(line_items)
     order = line_items.first.order
     
