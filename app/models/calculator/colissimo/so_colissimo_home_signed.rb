@@ -4,7 +4,7 @@ class Calculator::Colissimo::SoColissimoHomeSigned < Calculator::Colissimo
   end
   
   def available?(object)
-    return object.ship_address.country.iso3 == "FRA" && weight(object) <= 30
+    return Spree::ActiveShipping::Config[:origin_country] == "FR" && object.ship_address.country.iso3 == "FRA" && weight(object) <= 30
   end
   
   def compute(line_items)

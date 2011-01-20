@@ -16,7 +16,7 @@ class Calculator::Colissimo::ColissimoInternationalSigned < Calculator::Colissim
     
     is_in_zone = ZONE_A.include?(iso) || ZONE_B.include?(iso) || ZONE_C.include?(iso) || ZONE_D.include?(iso)
     
-    return is_in_zone && weight(object) <= 20
+    return Spree::ActiveShipping::Config[:origin_country] == "FR" && is_in_zone && weight(object) <= 20
   end
   
   def compute(line_items)
