@@ -1,0 +1,49 @@
+address_france:
+    firstname: Franky
+    lastname: Vincent
+    address1: 20 avenue des champs elysées
+    city: Paris
+    state_name: Paris
+    zipcode: 75010
+    country_id: 68
+    phone: +331887887887
+
+address_italy:
+    firstname: Franky
+    lastname: Vincent
+    address1: 20 avenue des champs elysées
+    city: Roma
+    state_name: Roma
+    zipcode: 75010
+    country_id: 98
+    phone: +331887887887
+
+address_russia:
+    firstname: Franky
+    lastname: Vincent
+    address1: 20 avenue des champs elysées
+    city: Moscow
+    state_name: Moscow
+    zipcode: 75010
+    country_id: 168
+    phone: +331887887887
+
+address_canada:
+    firstname: Franky
+    lastname: Vincent
+    address1: 20 avenue des champs elysées
+    city: Toronto
+    state_name: Toronto
+    zipcode: 75010
+    country_id: 35
+    phone: +331887887887
+
+address_india:
+    firstname: Franky
+    lastname: Vincent
+    address1: 20 avenue des champs elysées
+    city: Madras
+    state_name: Madras
+    zipcode: 75010
+    country_id: 92
+    phone: +331887887887

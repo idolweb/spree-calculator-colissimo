@@ -1,5 +1,24 @@
-li_clothe_physical_order:
-    order: physical_order
+li_clothe_physical_order_zone_a:
+    order: physical_order_zone_a
+    variant: t_shirt
+    quantity: 1
+    price: 10.99
+
+li_clothe_physical_order_zone_b:
+    order: physical_order_zone_b
+    variant: t_shirt
+    quantity: 1
+    price: 10.99
+
+
+li_clothe_physical_order_zone_c:
+    order: physical_order_zone_c
+    variant: t_shirt
+    quantity: 1
+    price: 10.99
+
+li_clothe_physical_order_zone_d:
+    order: physical_order_zone_d
     variant: t_shirt
     quantity: 1
     price: 10.99

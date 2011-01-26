@@ -1,0 +1,7 @@
+europe: 
+  name: EU_VAT
+  description: Countries that make up the EU VAT zone.
+
+france:
+    name: France
+    description: France

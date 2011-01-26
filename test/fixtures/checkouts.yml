@@ -1,0 +1,44 @@
+checkout_physical_zone_a:
+    bill_address: address_italy
+    ship_address: address_italy
+    email: toto@nowhere.com
+    order: physical_order_zone_a
+    ip_address: 127.0.0.1
+    state: "complete"
+    shipping_method: ups_ground
+
+checkout_physical_zone_b:
+    bill_address: address_russia
+    ship_address: address_russia
+    email: toto@nowhere.com
+    order: physical_order_zone_b
+    ip_address: 127.0.0.1
+    state: "complete"
+    shipping_method: ups_ground
+
+checkout_physical_zone_c:
+    bill_address: address_canada
+    ship_address: address_canada
+    email: toto@nowhere.com
+    order: physical_order_zone_c
+    ip_address: 127.0.0.1
+    state: "complete"
+    shipping_method: ups_ground
+
+checkout_physical_zone_d:
+    bill_address: address_india
+    ship_address: address_india
+    email: toto@nowhere.com
+    order: physical_order_zone_d
+    ip_address: 127.0.0.1
+    state: "complete"
+    shipping_method: ups_ground
+
+checkout_physical_france:
+    bill_address: address_france
+    ship_address: address_france
+    email: toto@nowhere.com
+    order: physical_order_france
+    ip_address: 127.0.0.1
+    state: "complete"
+    shipping_method: ups_ground

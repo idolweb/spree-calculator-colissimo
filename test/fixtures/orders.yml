@@ -1,4 +1,44 @@
-physical_order:
+physical_order_zone_a:
+    user: user
+    number: <%= "R#{Array.new(9){rand(9)}.join}" %>
+    state: paid
+    item_total: 0.99
+    created_at: <%= Time.now.to_s(:db)%>
+    completed_at: <%= Time.now.to_s(:db)%>
+    total: 0.99
+    adjustment_total: 0.20
+
+physical_order_zone_b:
+    user: user
+    number: <%= "R#{Array.new(9){rand(9)}.join}" %>
+    state: paid
+    item_total: 0.99
+    created_at: <%= Time.now.to_s(:db)%>
+    completed_at: <%= Time.now.to_s(:db)%>
+    total: 0.99
+    adjustment_total: 0.20
+
+physical_order_zone_c:
+    user: user
+    number: <%= "R#{Array.new(9){rand(9)}.join}" %>
+    state: paid
+    item_total: 0.99
+    created_at: <%= Time.now.to_s(:db)%>
+    completed_at: <%= Time.now.to_s(:db)%>
+    total: 0.99
+    adjustment_total: 0.20
+
+physical_order_zone_d:
+    user: user
+    number: <%= "R#{Array.new(9){rand(9)}.join}" %>
+    state: paid
+    item_total: 0.99
+    created_at: <%= Time.now.to_s(:db)%>
+    completed_at: <%= Time.now.to_s(:db)%>
+    total: 0.99
+    adjustment_total: 0.20
+
+physical_order_france:
     user: user
     number: <%= "R#{Array.new(9){rand(9)}.join}" %>
     state: paid

@@ -1,0 +1,4 @@
+eu_vat:
+    zone: europe
+    amount: 0.196
+    tax_category: default

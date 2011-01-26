@@ -1,0 +1,4 @@
+eu_vat_calculator:
+    calculable: eu_vat
+    calculable_type: TaxRate
+    type: Calculator::Vat

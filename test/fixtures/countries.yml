@@ -1,0 +1,39 @@
+countries_068: 
+  name: France
+  iso3: FRA
+  iso: FR
+  iso_name: FRANCE
+  id: "68"
+  numcode: "250"
+
+countries_098:
+    name: Italy
+    iso3: ITA
+    iso: IT
+    iso_name: ITALY
+    id: "98"
+    numcode: 380
+
+countries_168: 
+  name: Russian Federation
+  iso3: RUS
+  iso: RU
+  iso_name: RUSSIAN FEDERATION
+  id: "168"
+  numcode: "643"
+
+countries_035: 
+    name: Canada
+    iso3: CAN
+    iso: CA
+    iso_name: CANADA
+    id: "35"
+    numcode: "124"
+
+countries_092: 
+  name: India
+  iso3: IND
+  iso: IN
+  iso_name: INDIA
+  id: "92"
+  numcode: "356"

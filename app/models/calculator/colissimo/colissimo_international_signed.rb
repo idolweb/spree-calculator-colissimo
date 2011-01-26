@@ -94,7 +94,7 @@ class Calculator::Colissimo::ColissimoInternationalSigned < Calculator::Colissim
     when 10..15
       67.10
     when 15..20
-      77.40
+      77.30
     end
   end
   
