@@ -1,0 +1,7 @@
+t_shirt:
+    product: t_shirt
+    sku: ROR-00012
+    price: 10.99
+    cost_price: 5.00
+    is_master: true
+    count_on_hand: 100

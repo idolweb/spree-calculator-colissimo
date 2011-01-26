@@ -1,0 +1,6 @@
+t_shirt:
+    name: Beautiful
+    available_on: <%= Time.zone.now.to_s(:db) %>
+    permalink: t-shirt
+    count_on_hand: 100
+    tax_category: <%= TaxCategory.find_by_name("Default") %>

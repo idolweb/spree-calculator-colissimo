@@ -1,0 +1,5 @@
+li_clothe_physical_order:
+    order: physical_order
+    variant: t_shirt
+    quantity: 1
+    price: 10.99
