@@ -1,3 +1,4 @@
+# Tarifs trouvés ici : http://www.so-colissimo.fr/entreprises/dl/fiche_tarifaire_sei.pdf
 class Calculator::Colissimo::SoColissimoHomeSigned < Calculator::Colissimo
   def self.description
     "So Colissimo - Domicile avec signature"

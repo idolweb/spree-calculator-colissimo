@@ -1,3 +1,9 @@
+li_clothe_physical_order_france:
+    order: physical_order_france
+    variant: t_shirt
+    quantity: 1
+    price: 10.99
+
 li_clothe_physical_order_zone_a:
     order: physical_order_zone_a
     variant: t_shirt
