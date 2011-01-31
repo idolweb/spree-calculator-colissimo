@@ -6,7 +6,7 @@ class ColissimoTest < ActiveSupport::TestCase
   end
   
   test "weight" do
-    @order = orders(:physical_order)
+    @order = orders(:physical_order_zone_a)
     
     assert_equal 0.1, @calculator.weight(@order)
   end
