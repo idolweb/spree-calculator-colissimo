@@ -2,6 +2,7 @@ require File.dirname(__FILE__) +"/../../../test_helper"
 
 class SoColissimoHomeSignedTest < ActiveSupport::TestCase
   def setup
+    Spree::ActiveShipping::Config.set(:origin_country => "FR")
     @calculator = Calculator::Colissimo::SoColissimoHomeSigned.new
   end
   
@@ -11,15 +12,13 @@ class SoColissimoHomeSignedTest < ActiveSupport::TestCase
     assert !@calculator.available?(@order)
   end
   
-  test "available for order to france" do
+  test "available for order from france to france" do
     @order = orders(:physical_order_france)
-    
     assert @calculator.available?(@order)
   end
   
   test "not available for order from italy" do
     Spree::ActiveShipping::Config.set(:origin_country => "IT")
-    
     @order = orders(:physical_order_zone_a)
     
     assert !@calculator.available?(@order)
