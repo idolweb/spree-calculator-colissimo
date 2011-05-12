@@ -135,3 +135,17 @@ end
 
 # Load any custom rakefiles for extension
 Dir[File.dirname(__FILE__) + '/tasks/*.rake'].sort.each { |f| require f }
+
+require 'rcov/rcovtask'
+ 
+desc 'Measures test unit coverage using rcov'
+Rcov::RcovTask.new(:rcov) do |rcov|
+  rcov.pattern    = 'test/unit/**/*_test.rb'
+  rcov.output_dir = 'coverage'
+  rcov.rcov_opts << '--rails --exclude /gems/,/Library/,/usr/,spec,lib/tasks  --text-summary --html'
+  rcov.verbose    = true
+end
+
+Rake::Task[:rcov].enhance do
+  system("open coverage/index.html") if PLATFORM['darwin']
+end

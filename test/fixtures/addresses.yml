@@ -5,7 +5,7 @@ address_france:
     city: Paris
     state_name: Paris
     zipcode: 75010
-    country_id: 68
+    country: countries_068
     phone: +331887887887
 
 address_italy:
@@ -15,7 +15,7 @@ address_italy:
     city: Roma
     state_name: Roma
     zipcode: 75010
-    country_id: 98
+    country: countries_098
     phone: +331887887887
 
 address_russia:
@@ -25,7 +25,7 @@ address_russia:
     city: Moscow
     state_name: Moscow
     zipcode: 75010
-    country_id: 168
+    country: countries_168
     phone: +331887887887
 
 address_canada:
@@ -35,7 +35,7 @@ address_canada:
     city: Toronto
     state_name: Toronto
     zipcode: 75010
-    country_id: 35
+    country: countries_035
     phone: +331887887887
 
 address_india:
@@ -45,5 +45,5 @@ address_india:
     city: Madras
     state_name: Madras
     zipcode: 75010
-    country_id: 92
+    country: countries_092
     phone: +331887887887

@@ -6,6 +6,10 @@ class SoColissimoHomeSignedTest < ActiveSupport::TestCase
     @calculator = Calculator::Colissimo::SoColissimoHomeSigned.new
   end
   
+  test "description" do
+    assert_not_nil Calculator::Colissimo::SoColissimoHomeSigned.description
+  end
+  
   test "not available for order to italy" do
     @order = orders(:physical_order_zone_a)
     
