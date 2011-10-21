@@ -33,6 +33,8 @@ class Calculator::Colissimo::ColissimoInternationalSigned < Calculator::Colissim
       compute_zone_c(w)
     elsif ZONE_D.include?(iso)
       compute_zone_d(w)
+    else
+      100.0
     end
     
     vat = (Calculator::Vat.default_rates ? Calculator::Vat.default_rates.first.amount : 0)
